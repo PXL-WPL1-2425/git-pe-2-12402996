@@ -1,11 +1,25 @@
-nav > div
-{
-    width: 33%;
-    display: inline-block;
+nav{
+    display: flex;
+    flex-direction: row;
 }
+nav > div{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
 
 nav > div > img{
     height: 100px;
-
+}
+a{
+    color:white ;
+    text-decoration: none;
+    font-size: 14pt;
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
