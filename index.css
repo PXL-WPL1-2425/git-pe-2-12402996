@@ -4,3 +4,8 @@ nav > div
     display: inline-block;
 }
 
+nav > div > img{
+    height: 100px;
+
+}
+
